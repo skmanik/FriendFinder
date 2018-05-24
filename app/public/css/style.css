@@ -71,6 +71,7 @@ a, a:hover, a:focus, a:active {
 }
 
 #telescope {
+    display: block;
     max-width: 200px;
     max-height: 200px;
     margin: 70px auto;
@@ -217,11 +218,25 @@ a, a:hover, a:focus, a:active {
 
 /* modal */
 
-.modal {
-    align-items: normal;
+.modal-content {
+    text-align: center;
 }
 
-.modal-content svg {
+.modal-content h1 {
+    font-size: 5em;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #c17358;
+    line-height: 105%;
+    margin-bottom: 50px;
+}
+
+/* .modal {
+    align-items: normal;
+} */
+
+/* .modal-content svg {
     display: block;
     width: 150px;
     height: 150px;
@@ -232,7 +247,7 @@ p.search-text {
 	text-align: center;
     margin-top: 50px;
     padding: 0 25px;
-}
+} */
 
 /* animations */
 
