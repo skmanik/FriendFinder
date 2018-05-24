@@ -1,6 +1,7 @@
 // required data
 var friendsData = require("../data/friends");
 
+// export routes
 module.exports = function (app) {
     console.log("API ROUTES WORKING!");
 
