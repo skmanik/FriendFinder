@@ -98,6 +98,9 @@ a, a:hover, a:focus, a:active {
 
 .ff-footer p {
     padding-top: 2px;
+    position: relative;
+    top: 2px;
+    line-height: 14px;
     float: left;
 }
 
@@ -175,6 +178,7 @@ a, a:hover, a:focus, a:active {
     font-family: inherit;
     text-transform: uppercase;
     background: #d2856b;
+    white-space: normal;
 }
 
 .survey .submit.is-hovered,

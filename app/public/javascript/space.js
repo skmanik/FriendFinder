@@ -67,7 +67,7 @@ var config = {
             }
         }
     },
-    "retina_detect": true
+    "retina_detect": false
 };
 
 particlesJS('space_bg', config);
