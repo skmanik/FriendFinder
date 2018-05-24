@@ -263,7 +263,6 @@ p.search-text {
 }
 
 @-webkit-keyframes floating {
-    /* prefix this */
     from { 
         -webkit-transform: translate(0,  0px); 
         transform: translate(0,  0px); 
@@ -279,7 +278,6 @@ p.search-text {
 }
 
 @keyframes floating {
-    /* prefix this */
     from { 
         transform: translate(0,  0px); 
     }
@@ -295,8 +293,22 @@ p.search-text {
     animation: rotation 2s infinite linear;
 }
 
+@-webkit-keyframes rotation {
+    0% {
+        -webkit-transform: rotate(0deg) scale(1);
+        transform: rotate(0deg) scale(1);
+    }
+    50% {
+        -webkit-transform: rotate(180deg) scale(0.8);
+        transform: rotate(180deg) scale(0.8);
+    }
+    100% {
+        -webkit-transform: rotate(359deg) scale(1);
+        transform: rotate(359deg) scale(1);
+    }
+}
+
 @keyframes rotation {
-    /* prefix this */
     0% {
         transform: rotate(0deg) scale(1);
     }
