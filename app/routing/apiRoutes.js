@@ -2,7 +2,7 @@
 var friendsData = require("../data/friends");
 
 function compareScore(a, b) {
-    c = [];
+    var c = [];
 
     for (var i = 0; i < b.length; i++) {
         c.push(Math.abs(a[i] - b[i]));
@@ -41,7 +41,7 @@ module.exports = function (app) {
             }
 
         }
-
+        friendsData.push(userInfo);
         res.json(bestFriend);
     });
 }
