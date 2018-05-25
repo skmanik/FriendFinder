@@ -1,7 +1,7 @@
 // data, our dummy variables
 var friendArray = [
     {
-        "name": "Jesús Tek'daweel",
+        "name": "Jesús Tekdaweel",
         "photo": "https://placehold.it/150/150",
         "scores": [
             "1",

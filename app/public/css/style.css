@@ -236,6 +236,23 @@ a, a:hover, a:focus, a:active {
     margin-bottom: 50px;
 }
 
+#match-photo {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 25px auto;
+    border-radius: 50%;
+    background: #29282d;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#match-name {
+    display: block;
+    margin-top: 25px;
+    font-size: 1.8em;
+    color: #cecece;
+}
+
 /* .modal {
     align-items: normal;
 } */
