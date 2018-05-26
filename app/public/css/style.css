@@ -220,6 +220,11 @@ a, a:hover, a:focus, a:active {
     right: 0.8em !important;
 }
 
+.safari-fix {
+    width: 100%;
+    text-align: center;
+}
+
 /* modal */
 
 .modal-content {
