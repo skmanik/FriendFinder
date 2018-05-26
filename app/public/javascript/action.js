@@ -41,7 +41,7 @@ $("#survey-submit").on("click", function (event) {
 
         $.post("/api/friends", newFriend, function (data) {
             $(".modal").addClass("is-active");
-            $("#match-photo").css({"background": "url(" + data.photo + ")"}).addClass("animated bounceIn");
+            $("#match-photo").css({"background-image": "url(" + data.photo + ")"}).addClass("animated bounceIn");
             $("#match-name").text(data.name).addClass("animated bounceIn");
 
             // clear the form bc successful submit

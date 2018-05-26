@@ -2,7 +2,7 @@
 var friendArray = [
     {
         "name": "Jesús Tekdaweel",
-        "photo": "https://placehold.it/150/150",
+        "photo": "/images/astronaut.png",
         "scores": [
             "1",
             "1",
@@ -23,7 +23,7 @@ var friendArray = [
     },
     {
         "name": "Winnie Moortime",
-        "photo": "https://placehold.it/150/150",
+        "photo": "/images/kitty.png",
         "scores": [
             "5",
             "5",
