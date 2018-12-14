@@ -10,3 +10,11 @@ Live site: https://lit-lowlands-42660.herokuapp.com/
 * Fill out your name, a valid photo URL, and select an answer from the dropdown menu for each question (there are 15 total). 
 * 1 means you strongly disagree, while 5 means you strongly agree.
 * Hit submit to see who's your new friend!
+
+## Technologies
+
+* [jQuery](https://jquery.com/)
+* [Node](https://nodejs.org/en/)
+* [Express](https://expressjs.com/)
+* [Particles.js](https://github.com/VincentGarreau/particles.js/)
+* [Bulma](https://bulma.io/)
