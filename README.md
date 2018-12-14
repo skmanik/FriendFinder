@@ -13,8 +13,6 @@ Live site: https://lit-lowlands-42660.herokuapp.com/
 
 ## Technologies
 
-* [jQuery](https://jquery.com/)
-* [Node](https://nodejs.org/en/)
 * [Express](https://expressjs.com/)
 * [Particles.js](https://github.com/VincentGarreau/particles.js/)
 * [Bulma](https://bulma.io/)
